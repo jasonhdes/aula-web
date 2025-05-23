@@ -7,4 +7,12 @@ $(document).ready(function () {
         fade: true,
         speed: 500
     });
+
+    $('.galeria').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1000,
+    });
 });
+
